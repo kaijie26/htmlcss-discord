@@ -9,9 +9,22 @@ body{
 
 }
 
-.container{
-    background-color: #255ee9;
+.color-container{
+    background-color: lightblue;
     padding: 10px 0;
+
+}
+.flex-container{
+    display: flex;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.btn-container{
+    padding: 15px;
 
 }
 
@@ -21,52 +34,73 @@ body{
     border: none;
     background-color: white;
 
+
 }
 
 .btn-large{
+    border-radius: 30px;
+    padding: 15px;
+    border: none;
+    font-size: 20px;
 
+}
+
+.btn-white{
+    background-color: white;
+}
+
+.btn-black{
+    background-color: black;
+    color: white;
+}
+
+.btn-container{
+    margin-top: 20px o;
 }
 
 .header-top{
-    width: 70%;
-    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    padding: 10px;
+
 }
 
-.logo,
-ul,
-.login{
-   
-    /* padding: 5px; */
-}
 
 /* LOGO */
 .logo{
     width: 20%;
+
+
 }
 /*Nav */
 nav{
-    width: 60%;  
+    width: 60%;
+    
 }
+
 
 /* Login */
 .login{
     width: 20%;
-    display: flex;
-    justify-content: flex-end;
+    text-align: right;
+
+}
+.nav-col{
+    justify-content: center;
+    align-items: center;
+
 }
 
 .menu{
     list-style-type: none;
-    display: flex;
     justify-content: center;
+
+
 }
 
 .menu li{
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .menu li a{
@@ -75,24 +109,49 @@ nav{
 
 }
 
-.header-bottom{
-    background-color: #00008b;
+.jumbotron{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 530px;
+
+
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
 
-    /* TEST */
-    height: 400px;
+h1{
+
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
 
 }
 
-.jumbotron{
-    width: 800px;
+div .jumbotron-text{
+    font-size: 20px;
+    text-align: center;
+    line-height: 35px;
+    
+}
+
+
+.jumbotron-text{
+    /* width: 50%; */
+    height: 300px;
+    padding: 50px;
+    /* background-color: #ffc0cb; */
+
+
+
+
+
+    /* width: 800px;
     height: 300px;
     background-color:#ee82ee;
     border: 2px dashed black ;
-    
+     */
 }
 
 .gray{
@@ -133,16 +192,16 @@ section:last-child{
     height: 450px;
     background-color: #1e90ff;
     border: 2px dashed black ;
-    
+
 
 }
-   
+
 .section-content{
     width: 390px;
     height: 450px;
     background-color: #ffc0cb;
     border: 2px dashed black ;
-    
+
 }
 
 .last-section{
@@ -150,7 +209,7 @@ section:last-child{
     height: 650px;
     background-color: #228b22;
     border: 2px dashed black ;
-    
+
 }
 
 .top-footer{
@@ -206,12 +265,11 @@ hr{
 .logo-footer{
     background-color: pink;
     border: 2px dashed black ;
-    
+
 }
 
 .bottone-footer{
     background-color: pink;
     border: 2px dashed black ;
-    
+
 }
-   
